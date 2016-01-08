@@ -8,7 +8,7 @@ Template.Home.events({
     var searchTerms = event.target.ingredient.value;
     Meteor.call('server/getSpoonacular', searchType, searchTerms)
     event.target.ingredient.value = "";
-      }
+  }
 });
 
 /*****************************************************************************/
