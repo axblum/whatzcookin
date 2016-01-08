@@ -1,3 +1,4 @@
 .meteor/local
 .meteor/meteorite
 .env
+config/development/env.sh
