@@ -4,8 +4,10 @@
 Template.Home.events({
   "submit .ingredient-form": function (event) {
     event.preventDefault();
-    Meteor.call('server/getSpoonacular')
-    var ingredient = event.target.ingredient.value;
+    var searchType = "findByIngredients?ingredients=";
+    var searchTerms = event.target.ingredient.value;
+    Meteor.call('server/getSpoonacular', searchType, searchTerms)
+    event.target.ingredient.value = "";
       }
 });
 
