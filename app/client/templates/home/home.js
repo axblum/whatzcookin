@@ -2,12 +2,20 @@
 /* Home: Event Handlers */
 /*****************************************************************************/
 Template.Home.events({
+  "submit .ingredient-form": function (event) {
+    event.preventDefault();
+
+    var ingredient = event.target.ingredient.value;
+      }
 });
 
 /*****************************************************************************/
 /* Home: Helpers */
 /*****************************************************************************/
 Template.Home.helpers({
+  recipes: function () {
+    return Recipes.find();
+  }
 });
 
 /*****************************************************************************/
