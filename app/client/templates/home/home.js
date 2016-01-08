@@ -4,7 +4,7 @@
 Template.Home.events({
   "submit .ingredient-form": function (event) {
     event.preventDefault();
-
+    Meteor.call('server/getSpoonacular')
     var ingredient = event.target.ingredient.value;
       }
 });

@@ -8,3 +8,5 @@
 
 export SAMPLE_VARIABLE="somevalue"
 
+export FOOD_2_FORK_API='a2b1d5b8112088464e0df24e4b0faa5a'
+export SPOONACULAR_API='CYMCpxdyPlmshEfZxwV091FACLrnp1Vi957jsnh45s8e6EXxoq'
