@@ -25,3 +25,5 @@ accounts-ui
 
 http
 pauldowman:dotenv
+react
+kadira:flow-router
