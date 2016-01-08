@@ -10,3 +10,11 @@ Router.route('/', {
   controller: 'HomeController',
   where: 'client'
 });
+
+
+FlowRouter.route('dashboard',
+  path: '/dashboard',
+  action() {
+
+  }
+  )
