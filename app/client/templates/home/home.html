@@ -1,5 +1,14 @@
 <template name="Home">
   <div class="home">
-    <h1>Find me in app/client/templates/home/home</h1>
+  <header>
+    <nav>
+      {{> loginButtons}}
+    </nav>
+    <h1>Whatz Cookin</h1>
+  </header>
+  <form class="ingredient-form">
+    <input type="text" name="ingredient" placeholder="Put your ingredient here"/>
+    <input type="submit" value="Give me a recipe">
+  </form>
   </div>
 </template>
