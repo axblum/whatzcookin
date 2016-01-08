@@ -7,3 +7,4 @@
 # export ROOT_URL="http://localhost:3000"
 
 export SAMPLE_VARIABLE="somevalue"
+
